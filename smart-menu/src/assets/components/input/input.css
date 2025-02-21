@@ -1,0 +1,10 @@
+.input-container input::placeholder {
+    color: rgba(99, 78, 183, 0.278);
+}
+
+.input-container input{
+    border: rgba(128, 128, 128, 0.185) solid 1px;
+    height: 45px;
+    width: 300px;
+    border-radius: 10px;
+}
