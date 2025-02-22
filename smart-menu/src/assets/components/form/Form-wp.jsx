@@ -24,7 +24,7 @@ const FormWp = () => {
     <div>
         <form onSubmit={handleSubmit}>
             <Input inputName="userName" onChangeInput={(e) => handleChanges(e)} inputRequired={true}/>
-            <Button btnType="submit"/>
+            <Button btnType="submit" btnTitle="Ingresar"/>
         </form>   
     </div>
   )

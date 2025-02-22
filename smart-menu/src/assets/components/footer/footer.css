@@ -1,0 +1,12 @@
+.footer-container{
+    position: relative;
+    /* right: 0; */
+    /* left: 0; */
+    width: 100%;
+    min-height: 1vh;
+    bottom: 0;
+}
+
+.footer-container .footer-bg{
+    background-color: rgb(187, 187, 187)
+}
