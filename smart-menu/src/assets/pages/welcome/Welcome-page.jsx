@@ -1,16 +1,15 @@
 import React from 'react';
-import './welcome-page.css';
-import LogoComponent from '../logo/Logo.jsx';
-import Footer from '../footer/Footer.jsx';
-import Heading from '../heading/Heading.jsx';
-import Paragraph from '../paragraph/Paragraph.jsx';
-import Form from '../form/Form-wp.jsx';
+import LogoComponent from '../../components/logo/Logo.jsx';
+import Footer from '../../components/footer/Footer.jsx';
+import Heading from '../../components/heading/Heading.jsx';
+import Paragraph from '../../components/paragraph/Paragraph.jsx';
+import Form from '../../components/form/Form-wp.jsx';
 
 
 const WelcomePage = () => {
 
   return (
-    <div>
+    <div className='bg-[#FAF9F6]'>
       <LogoComponent src='Logo_V1.svg' className='text-center'/>
       <div className='mb-91'>
         <Heading/>

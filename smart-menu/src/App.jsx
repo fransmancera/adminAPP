@@ -1,6 +1,7 @@
 import './App.css';
-import WelcomePage from './assets/components/welcome/Welcome-page';
-import Inicio from './assets/components/inicio/Inicio';
+import WelcomePage from './assets/pages/welcome/Welcome-page';
+import Inicio from './assets/pages/inicio/Inicio';
+import MockHome from './assets/pages/MockHome';
 import {RouterProvider, createBrowserRouter} from 'react-router-dom';
 
 function App() {
@@ -12,6 +13,10 @@ function App() {
     {
       path: "/inicio",
       element: <Inicio />,
+    },
+    {
+    path: "/mockhome",
+    element: <MockHome />,
     },
   ]);
   return (

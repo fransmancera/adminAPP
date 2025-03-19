@@ -23,7 +23,7 @@ const FormWp = () => {
   return (
     <div>
         <form onSubmit={handleSubmit}>
-            <Input inputName="userName" onChangeInput={(e) => handleChanges(e)} inputRequired={true}/>
+            <Input inputName="userName" onChangeInput={(e) => handleChanges(e)} inputRequired={true} inputPlaceholder='Ingrese su nombre'/>
             <Button btnType="submit" btnTitle="Ingresar"/>
         </form>   
     </div>
